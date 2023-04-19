@@ -38,7 +38,7 @@
                 <ImageView
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:src="@mipmap/account" />
+                    android:src="@drawable/ic_baseline_person_24" />
 
                 <EditText
                     android:id="@+id/et_account"
@@ -47,7 +47,7 @@
                     android:layout_marginLeft="20dp"
                     android:background="@null"
                     android:hint="@string/account_hint"
-                    android:text="root"
+                    android:text="admin0"
                     android:textColor="#000000"
                     android:textColorHint="#bcbcbc"
                     android:textSize="18sp" />
@@ -67,9 +67,9 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:src="@mipmap/pwd" />
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_baseline_key_24" />
 
                 <EditText
                     android:id="@+id/et_pwd"
@@ -98,6 +98,7 @@
             android:text="@string/login"
             android:textColor="#ffffff"
             android:textSize="24sp" />
+
     </LinearLayout>
 
 </RelativeLayout>

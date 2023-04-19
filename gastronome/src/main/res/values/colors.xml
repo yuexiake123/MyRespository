@@ -14,5 +14,7 @@
     <color name="orange">#ffffdd</color>
     <color name="gray">#cccccc</color>
     <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
     <color name="rice_white">#E8E3E3</color>
+    <color name="hint_gray">#bcbcbc</color>
 </resources>

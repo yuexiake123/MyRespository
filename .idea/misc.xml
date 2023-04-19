@@ -136,12 +136,17 @@
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/asset_home_selector.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/asset_person_selector.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/asset_toys_selector.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/circle_imageview.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/edittext_selector.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/home_bottom_bg_selector.xml" value="0.118" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_home_24.xml" value="0.118" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_home_24_checked.xml" value="0.118" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_map_24.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_person_24.xml" value="0.118" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_person_24_checked.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
@@ -154,17 +159,45 @@
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/main_bottom_bg_selector.xml" value="0.118" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_big_login_btn.xml" value="0.1305" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_big_register_btn.xml" value="0.1305" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_circle_imageview.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_edit_focus.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_login_btn.xml" value="0.1305" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_login_form.xml" value="0.1305" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_register_btn.xml" value="0.1305" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_search_background.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/drawable/shape_search_edittext.xml" value="0.1" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_home.xml" value="0.23324275362318841" />
-        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_register.xml" value="0.22465753424657534" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/activity_start.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/fragment_account.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/fragment_dynamics.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/fragment_home.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/fragment_person.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/item_city_selector.xml" value="0.2441123188405797" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/title_main.xml" value="0.264" />
         <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/gastronome/src/main/res/layout/title_search.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/asset_home_selector.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/circle_imageview.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/shape_free.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/shape_occupied.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/shape_of_table.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/drawable/shape_search_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/activity_main.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/activity_start.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/fragment_account.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/fragment_dynamics.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/fragment_room.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/title_main.xml" value="0.1" />
+        <entry key="..\:/Users/123456/AndroidStudioProjects/MyApplication/getnow/src/main/res/layout/title_search.xml" value="0.2441123188405797" />
       </map>
     </option>
   </component>

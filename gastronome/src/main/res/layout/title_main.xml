@@ -5,13 +5,14 @@
     android:background="@color/white">
 
     <ImageView
-        android:id="@+id/iv_back"
+        android:id="@+id/iv_head"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:padding="10dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/header" />
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/circle_imageview"
+        android:src="@drawable/ai" />
 
     <TextView
         android:id="@+id/tv_title"

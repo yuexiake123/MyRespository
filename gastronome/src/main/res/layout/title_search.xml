@@ -4,7 +4,7 @@
     android:layout_height="40dp"
     android:orientation="horizontal"
     android:padding="1dp"
-    android:background="@drawable/shape_search_background">
+    android:background="@drawable/shape_search_edittext">
 
     <EditText
         android:id="@+id/et_search"
@@ -13,7 +13,8 @@
         android:layout_weight="1"
         android:hint="搜索"
         android:textSize="16sp"
-        android:textColor="@color/white" />
+        android:textColorHint="@color/hint_gray"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/iv_search"

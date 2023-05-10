@@ -23,10 +23,12 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
         switch (view.getId()){
             case R.id.btn_login:
                 intent=new Intent(this,LoginActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 break;
             case R.id.btn_register:
                 intent=new Intent(this,RegisterActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 break;
         }

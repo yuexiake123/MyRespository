@@ -7,7 +7,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="cities">
-        <item>未知</item>
+        <item>未知,点击选择</item>
         <item>北京</item>
         <item>天津</item>
         <item>上海</item>
@@ -42,5 +42,25 @@
         <item>台湾</item>
         <item>香港</item>
         <item>澳门</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>推荐</item>
+        <item>热门</item>
+        <item>最新</item>
+        <item>必看</item>
+        <item>川菜</item>
+        <item>鲁菜</item>
+        <item>豫菜</item>
+    </string-array>
+
+    <string-array name="tags">
+        <item>推荐</item>
+        <item>热门</item>
+        <item>最新</item>
+        <item>必看</item>
+        <item>川菜</item>
+        <item>鲁菜</item>
+        <item>豫菜</item>
     </string-array>
 </resources>

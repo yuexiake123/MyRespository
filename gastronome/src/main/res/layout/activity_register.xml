@@ -210,11 +210,10 @@
                         android:textSize="18sp"/>
                 </LinearLayout>
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_photo"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:scaleType="fitXY"
                     android:src="@drawable/ic_baseline_add_24"/>
             </LinearLayout>
 

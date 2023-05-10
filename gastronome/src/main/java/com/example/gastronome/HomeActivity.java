@@ -2,13 +2,14 @@ package com.example.gastronome;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -22,7 +23,7 @@ public class HomeActivity extends AppCompatActivity implements RadioGroup.OnChec
 
     private TextView tv_title;
     private RadioGroup rg_main;
-    private FrameLayout fl_main;
+    private FragmentContainerView fcv_home;
     private HomeFragment homeFragment;
     private DynamicsFragment dynamicsFragment;
     private AccountFragment accountFragment;
@@ -37,7 +38,7 @@ public class HomeActivity extends AppCompatActivity implements RadioGroup.OnChec
 
         tv_title = findViewById(R.id.tv_title);
         rg_main = findViewById(R.id.rg_main);
-        fl_main = findViewById(R.id.fl_main);
+        fcv_home = findViewById(R.id.fcv_home);
         iv_head = findViewById(R.id.iv_head);
 
         //创建Fragment
@@ -45,10 +46,13 @@ public class HomeActivity extends AppCompatActivity implements RadioGroup.OnChec
         dynamicsFragment = new DynamicsFragment();
         accountFragment = new AccountFragment();
 
-        rg_main.setOnCheckedChangeListener(this);
         //显示首页
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.fl_main,homeFragment).commit();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.fcv_home,HomeFragment.class,null).commit();
+
+        rg_main.setOnCheckedChangeListener(this);
+
 
         //获取用户信息
         MyApplication app = MyApplication.getInstance();
@@ -87,6 +91,7 @@ public class HomeActivity extends AppCompatActivity implements RadioGroup.OnChec
         }
         //切换fragment
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.fl_main,fragment).commit();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fcv_home,fragment,null).commit();
     }
 }

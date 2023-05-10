@@ -1,7 +1,5 @@
 package com.example.gastronome.entity;
 
-import java.util.Date;
-
 public class User {
 
     public int id; // 序号

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/shape_dynamics_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_author_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ai"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_author_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="作者名字"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_publish_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-4-30"
+                android:textColor="@color/light_text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_work_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作品名字"
+            android:textColor="@color/blue_1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_work_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作品简介"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_work_photo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/ai"/>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_centerVertical="true">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/iv_share"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/ic_outline_reply_24"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_share_count"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="3dp"-->
+<!--                    android:text="0"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="10sp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:layout_centerVertical="true">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/iv_comment"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/comment"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_comment_count"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginLeft="3dp"-->
+<!--                    android:text="10"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="18sp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/iv_like"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/dianzan"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_like_count"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="0"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="18sp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_outline_reply_24"/>
+
+            <TextView
+                android:id="@+id/tv_share_count"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:paddingLeft="3dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/comment"/>
+
+            <TextView
+                android:id="@+id/tv_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:paddingLeft="3dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_like"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dianzan"/>
+
+            <TextView
+                android:id="@+id/tv_like_count"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:paddingLeft="3dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

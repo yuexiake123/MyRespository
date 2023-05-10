@@ -16,6 +16,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".CommentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyFunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MySubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyCollectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrowseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyWorkDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyDynamicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePWDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

@@ -9,15 +9,17 @@
 
     <include layout="@layout/title_main" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_blue_dark"/>
 
-    <FrameLayout
-        android:id="@+id/fl_main"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcv_home"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@color/white">
+        android:layout_weight="1"/>
 
-    </FrameLayout>
 
     <RadioGroup
         android:id="@+id/rg_main"

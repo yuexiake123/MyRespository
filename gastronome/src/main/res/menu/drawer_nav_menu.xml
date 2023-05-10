@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_myDynamics"
+            android:icon="@drawable/icon_left_arrow"
+            android:title="我的动态"/>
+
+        <item android:id="@+id/menu_myCollect"
+            android:icon="@drawable/icon_left_arrow"
+            android:title="我的收藏"/>
+
+        <item android:id="@+id/menu_mySubscription"
+            android:icon="@drawable/icon_left_arrow"
+            android:title="我的关注"/>
+
+        <item android:id="@+id/menu_myFun"
+           android:icon="@drawable/icon_left_arrow"
+            android:title="我的粉丝"/>
+    </group>
+</menu>

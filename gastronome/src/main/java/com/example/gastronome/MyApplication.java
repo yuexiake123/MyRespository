@@ -19,16 +19,15 @@ public class MyApplication extends Application {
 
     //注册页面是否有向登录页面传递登录信息的标志量
     public boolean registerToLogin = false;
+    public String loginAccount = null;
+    public String loginPassword = null;
     //当前用户
     public User user;
-
 
     //在App启动时调用
     @Override
     public void onCreate() {
         super.onCreate();
         mApp = this;
-        registerToLogin = false;
-        Log.d("Jun"," onCreate registerToLogin = " + registerToLogin);
     }
 }

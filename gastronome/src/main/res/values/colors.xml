@@ -13,8 +13,14 @@
     <color name="transparent">#00000000</color>
     <color name="orange">#ffffdd</color>
     <color name="gray">#cccccc</color>
+    <color name="gray_bg">#F1E7E7</color>
+    <color name="light_text">#4C4343</color>
     <color name="red">#ff0000</color>
     <color name="blue">#0000ff</color>
     <color name="rice_white">#E8E3E3</color>
     <color name="hint_gray">#bcbcbc</color>
+    <color name="blue_1">#3794DB</color>
+    <color name="blue_2">#5bc4ed</color>
+    <color name="green_1">#80EF64</color>
+    <color name="pink">#EDC94874</color>
 </resources>

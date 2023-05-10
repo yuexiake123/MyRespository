@@ -43,8 +43,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
     private static final int REQUEST_CODE_STORAGE = 1;
 
-
-
     private EditText et_account;
     private EditText et_pwd;
     private EditText et_pwd_again;
@@ -83,7 +81,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         // 设置下拉框的标题。对话框模式才显示标题，下拉模式不显示标题
         sp_area.setPrompt("请选择:");
         sp_area.setAdapter(citySelectAdapter);
-        // 设置下拉框默认显示第一项
+        // 设置下拉框显示第一项
         //sp_area.setSelection(0);
         // 给下拉框设置选择监听器，一旦用户选中某一项，就触发监听器的onItemSelected方法
         //地区选择监听器
@@ -101,6 +99,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             }
         });
 
+        //避免空指针的初始化图片
+        //picturePath = "/storage/emulated/0/baidu/searchbox/downloads/plus.jpg";
         //选择本地图片的回调函数
         register = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
             @Override
@@ -117,7 +117,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     // 根据指针获取图片路径
                     picturePath = cursor.getString(columnIndex);
                     cursor.close();
-                    Log.d("Jun","cursor is ok " + picturePath);
+                    Log.d("Jun","cursor is ok :" + picturePath);
                     // 使用地址获取图片
                     iv_photo.setImageURI(Uri.parse(picturePath));
                     if(picturePath != null){
@@ -156,7 +156,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 if( !checkRegister()){
                     break;
                 }
-                checkRegister();
                 //获取当前时间
                 calendar = Calendar.getInstance();
                 //构造User实例
@@ -172,16 +171,18 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     ToastUtil.show(this, "注册成功！");
                     //跳转到登录页面
                     Intent intent_login = new Intent(this, LoginActivity.class);
-                    // 创建一个新包裹,保存登录信息
-                    Bundle bundle = new Bundle();
-                    bundle.putString("account", et_account.getText().toString());
-                    bundle.putString("password", et_pwd.getText().toString());
-                    intent_login.putExtras(bundle);
-                    // 修改标志量
+                    intent_login.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    //将当前登录信息保存到全局
                     MyApplication app = MyApplication.getInstance();
-                    app.registerToLogin = true;
-                    Log.d("Jun","Rgister registerToLogin = " + app.registerToLogin);
+                    app.loginAccount = et_account.getText().toString();
+                    app.loginPassword = et_pwd.getText().toString();
+                    // 创建一个新包裹,保存登录信息
+//                    Bundle bundle = new Bundle();
+//                    bundle.putString("account", et_account.getText().toString());
+//                    bundle.putString("password", et_pwd.getText().toString());
+//                    intent_login.putExtras(bundle);
                     startActivity(intent_login);
+                    ToastUtil.show(this, "点击登录！");
                 }else{
                     ToastUtil.show(this, "ERROR！");
                 }
